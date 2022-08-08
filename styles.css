@@ -1,0 +1,53 @@
+.container {
+    box-shadow: 1px 1px 8px 1px #d6d6d6;
+    padding : 15px 15px
+  }
+  
+  /* The slider itself */
+  .slider {
+    background: linear-gradient(to right, #44bc4b 0%, #44bc4b 50%, #d3d3d3 50%, #d3d3d3 100%);
+    border-radius: 8px;
+    height: 8px;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+    width:100%
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #44bc4b;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #44bc4b;
+    cursor: pointer;
+  }
+
+  .rightCol{
+    text-align:center;
+    border-left:1px #e1e1e1 solid;
+  }
+
+  .inputRow {
+    margin-left:0px !important;
+    margin-right:0px !important;
+  }
+
+  #compareBtn{
+    font-weight:600;
+    font-size:1.5em;
+    width:100%
+  }
+
+  #loanAmount,#tenurePeriod{
+    font-weight:600;
+    color:#44bc4b;
+  }
